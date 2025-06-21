@@ -5805,6 +5805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sceneToLoad: Main
+  _pauseHandler: {fileID: 186479216}
 --- !u!114 &1977634322
 MonoBehaviour:
   m_ObjectHideFlags: 0

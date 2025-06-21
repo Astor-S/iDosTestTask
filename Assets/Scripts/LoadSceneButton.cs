@@ -6,8 +6,11 @@ public class LoadSceneButton : MonoBehaviour
 {
     [SerializeField] private string _sceneToLoad;
 
-    public void OnButtonClick() =>
+    public void OnButtonClick()
+    {
+        Time.timeScale = 1f;
         StartCoroutine(LoadLevelAsync(_sceneToLoad));
+    }
 
     private IEnumerator LoadLevelAsync(string sceneName)
     {
