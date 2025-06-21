@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayButton : MonoBehaviour
+public class LoadSceneButton : MonoBehaviour
 {
     [SerializeField] private string _sceneToLoad;
 
